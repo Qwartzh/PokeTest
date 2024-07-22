@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.img-container {
+    background-color: aquamarine;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: 500ms ;
+}
+
+.right {
+    transform: translate(27rem);
+    
+}
+
+.left {
+    transform: translate(-27rem);
+}
